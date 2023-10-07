@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header .profile .profile-img {
+  width: 110px;
+}
+.header .profile .name-title {
+  margin: 10px;
+}
+.header .profile .name-title .name {
+  padding: 5px;
+}
+.header .profile .name-title .title {
+  padding: 5px;
+}
+.header .profile .contact {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.main-body {
+  width: 100%;
+  margin-top: 100px;
+}
+.main-body .linkrsume-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-body .linkrsume-con .linkresume {
+  cursor: pointer;
+  color: white;
+  padding: 15px 15%;
+  font-size: medium;
+  box-shadow: black 0px 0px 0px 2px inset, rgb(255, 255, 255) 3px 3px 0px 0px, rgb(0, 0, 0) 5px 5px 0px 1px;
+  background-color: black;
+  transition: all 0.4s ease;
+}
+.main-body .linkrsume-con .linkresume:hover {
+  box-shadow: black 0px 0px 0px 2px inset, rgb(255, 255, 255) 3px 3px 0px 0px, rgb(0, 0, 0) 5px 5px 0px 1px;
+  background-color: black;
+  transition: all 0.4s ease;
+  color: black;
+  background-color: yellowgreen;
+}/*# sourceMappingURL=style.css.map */
